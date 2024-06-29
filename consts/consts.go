@@ -13,11 +13,11 @@ import (
 
 const (
 	// TODO: choose a human-readable part for your hyperchain
-	HRP = ""
+	HRP = "linuxedu" // HRP is a prefix which helps us uniquely identify our VMs addresses
 	// TODO: choose a name for your hyperchain
-	Name = ""
+	Name = "LinuxEDU" // Name for the blockchain created using hyperSDK
 	// TODO: choose a token symbol
-	Symbol = ""
+	Symbol = "LNXEDU" // Symbol for the native token of the hyperchain
 )
 
 var ID ids.ID
